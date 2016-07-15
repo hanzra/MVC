@@ -20,8 +20,7 @@ namespace MVCEssentialTool.Controllers
                                 };
         public HomeController(IValueCalculator calc)
         {
-            calculator = calc;
-            Debug.WriteLine("instance created");
+            calculator = calc;            
         }
 
         public ActionResult Index()
